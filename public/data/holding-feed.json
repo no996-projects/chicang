@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T05:16:57.543Z",
+  "generatedAt": "2026-11-26T20:13:00.406Z",
   "site": {
     "name": "chicang",
     "tagline": "重要资金公开披露雷达",
@@ -26,8 +26,8 @@
     "form4TradeCount": 0,
     "regionalWatchlistCount": 8,
     "regionalTradeCount": 63,
-    "sourceErrorCount": 15,
-    "cnMainFundInflowCount": 0,
+    "sourceErrorCount": 14,
+    "cnMainFundInflowCount": 20,
     "latestEventDate": "2026-11-25"
   },
   "profiles": [
@@ -49,7 +49,7 @@
       },
       "latestFiling": {
         "reportDate": "2026-11-25",
-        "filingDate": "Wed, 25 Nov 2026 07:05:36 GMT",
+        "filingDate": "Tue, 06 Oct 2026 06:05:44 GMT",
         "form": "ARK ETF CSV"
       },
       "topHoldings": [
@@ -281,7 +281,7 @@
           "name": "ARK Innovation ETF",
           "rowCount": 39,
           "asOfDate": "2026-11-25",
-          "lastModified": "Wed, 25 Nov 2026 07:05:35 GMT",
+          "lastModified": "Thu, 26 Nov 2026 07:05:38 GMT",
           "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_INNOVATION_ETF_ARKK_HOLDINGS.csv"
         },
         {
@@ -290,7 +290,7 @@
           "name": "ARK Autonomous Tech. & Robotics ETF",
           "rowCount": 36,
           "asOfDate": "2026-11-25",
-          "lastModified": "Wed, 25 Nov 2026 07:05:35 GMT",
+          "lastModified": "Thu, 26 Nov 2026 07:05:39 GMT",
           "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_AUTONOMOUS_TECH._%26_ROBOTICS_ETF_ARKQ_HOLDINGS.csv"
         },
         {
@@ -308,7 +308,7 @@
           "name": "ARK Genomic Revolution ETF",
           "rowCount": 33,
           "asOfDate": "2026-11-25",
-          "lastModified": "Wed, 25 Nov 2026 07:05:36 GMT",
+          "lastModified": "Thu, 26 Nov 2026 07:05:40 GMT",
           "url": "https://assets.ark-funds.com/fund-documents/funds-etf-csv/ARK_GENOMIC_REVOLUTION_ETF_ARKG_HOLDINGS.csv"
         },
         {
@@ -856,43 +856,109 @@
       "cadence": "披露后更新",
       "latestFiling": {
         "form": "PTR",
-        "reportDate": "2026-10-29",
-        "filingDate": "2026-11-24"
+        "reportDate": "2026-11-09",
+        "filingDate": "2026-11-25"
       },
       "positionCount": 25,
       "changes": [
         {
-          "id": "congress-2026-11-24-2026-10-29-robert-onder-DUK-Sell",
+          "id": "congress-2026-11-25-2026-11-09-paul-rand-senator--NVDA-Buy",
           "market": "us",
           "investorId": "us_congress",
-          "investorName": "Robert Onder",
+          "investorName": "Paul, Rand (Senator)",
           "vehicleName": "US Congress PTR",
           "sourceTier": "L1",
           "disclosureType": "STOCK Act PTR",
-          "sourceLabel": "House Clerk PTR",
+          "sourceLabel": "Senate eFD PTR",
           "indexSourceLabel": "CongressFlow third-party index",
-          "reportDate": "2026-10-29",
+          "reportDate": "2026-11-09",
           "previousReportDate": null,
-          "filingDate": "2026-11-24",
-          "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036908.pdf",
+          "filingDate": "2026-11-25",
+          "evidenceUrl": "https://efdsearch.senate.gov/search/view/ptr/99dc7269-2f99-4c8b-8d0c-a3a91328af84/",
           "security": {
-            "ticker": "DUK",
-            "name": "DUK",
+            "ticker": "NVDA",
+            "name": "NVDA",
             "cusip": "",
             "title": "Disclosed range"
           },
-          "direction": "decrease",
+          "direction": "increase",
           "sharesBefore": null,
           "sharesAfter": null,
           "sharesDelta": null,
           "marketValueBefore": null,
           "marketValueAfter": null,
-          "marketValueDelta": -32500.5,
-          "disclosedAmountRange": "$15,001 - $50,000",
-          "significanceScore": 32500.5,
+          "marketValueDelta": 8000.5,
+          "disclosedAmountRange": "$1,001 - $15,000",
+          "significanceScore": 8000.5,
           "confidence": "medium",
           "staleDisclosure": false,
-          "narrative": "Robert Onder 通过 US Congress PTR 减持 DUK / DUK。交易日 2026-10-29。"
+          "narrative": "Paul, Rand (Senator) 通过 US Congress PTR 增持 NVDA / NVDA。交易日 2026-11-09。"
+        },
+        {
+          "id": "congress-2026-11-25-2026-11-07-paul-rand-senator--NVDA-Buy",
+          "market": "us",
+          "investorId": "us_congress",
+          "investorName": "Paul, Rand (Senator)",
+          "vehicleName": "US Congress PTR",
+          "sourceTier": "L1",
+          "disclosureType": "STOCK Act PTR",
+          "sourceLabel": "Senate eFD PTR",
+          "indexSourceLabel": "CongressFlow third-party index",
+          "reportDate": "2026-11-07",
+          "previousReportDate": null,
+          "filingDate": "2026-11-25",
+          "evidenceUrl": "https://efdsearch.senate.gov/search/view/ptr/99dc7269-2f99-4c8b-8d0c-a3a91328af84/",
+          "security": {
+            "ticker": "NVDA",
+            "name": "NVDA",
+            "cusip": "",
+            "title": "Disclosed range"
+          },
+          "direction": "increase",
+          "sharesBefore": null,
+          "sharesAfter": null,
+          "sharesDelta": null,
+          "marketValueBefore": null,
+          "marketValueAfter": null,
+          "marketValueDelta": 8000.5,
+          "disclosedAmountRange": "$1,001 - $15,000",
+          "significanceScore": 8000.5,
+          "confidence": "medium",
+          "staleDisclosure": false,
+          "narrative": "Paul, Rand (Senator) 通过 US Congress PTR 增持 NVDA / NVDA。交易日 2026-11-07。"
+        },
+        {
+          "id": "congress-2026-11-25-2026-11-05-paul-rand-senator--NVDA-Buy",
+          "market": "us",
+          "investorId": "us_congress",
+          "investorName": "Paul, Rand (Senator)",
+          "vehicleName": "US Congress PTR",
+          "sourceTier": "L1",
+          "disclosureType": "STOCK Act PTR",
+          "sourceLabel": "Senate eFD PTR",
+          "indexSourceLabel": "CongressFlow third-party index",
+          "reportDate": "2026-11-05",
+          "previousReportDate": null,
+          "filingDate": "2026-11-25",
+          "evidenceUrl": "https://efdsearch.senate.gov/search/view/ptr/99dc7269-2f99-4c8b-8d0c-a3a91328af84/",
+          "security": {
+            "ticker": "NVDA",
+            "name": "NVDA",
+            "cusip": "",
+            "title": "Disclosed range"
+          },
+          "direction": "increase",
+          "sharesBefore": null,
+          "sharesAfter": null,
+          "sharesDelta": null,
+          "marketValueBefore": null,
+          "marketValueAfter": null,
+          "marketValueDelta": 8000.5,
+          "disclosedAmountRange": "$1,001 - $15,000",
+          "significanceScore": 8000.5,
+          "confidence": "medium",
+          "staleDisclosure": false,
+          "narrative": "Paul, Rand (Senator) 通过 US Congress PTR 增持 NVDA / NVDA。交易日 2026-11-05。"
         },
         {
           "id": "congress-2026-11-24-2026-10-29-robert-onder-MDLZ-Sell",
@@ -994,7 +1060,7 @@
           "narrative": "Robert Onder 通过 US Congress PTR 减持 PG / PG。交易日 2026-10-29。"
         },
         {
-          "id": "congress-2026-11-24-2026-10-29-robert-onder-GEHC-Sell",
+          "id": "congress-2026-11-24-2026-10-29-robert-onder-DUK-Sell",
           "market": "us",
           "investorId": "us_congress",
           "investorName": "Robert Onder",
@@ -1008,8 +1074,8 @@
           "filingDate": "2026-11-24",
           "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036908.pdf",
           "security": {
-            "ticker": "GEHC",
-            "name": "GEHC",
+            "ticker": "DUK",
+            "name": "DUK",
             "cusip": "",
             "title": "Disclosed range"
           },
@@ -1019,12 +1085,12 @@
           "sharesDelta": null,
           "marketValueBefore": null,
           "marketValueAfter": null,
-          "marketValueDelta": -8000.5,
-          "disclosedAmountRange": "$1,001 - $15,000",
-          "significanceScore": 8000.5,
+          "marketValueDelta": -32500.5,
+          "disclosedAmountRange": "$15,001 - $50,000",
+          "significanceScore": 32500.5,
           "confidence": "medium",
           "staleDisclosure": false,
-          "narrative": "Robert Onder 通过 US Congress PTR 减持 GEHC / GEHC。交易日 2026-10-29。"
+          "narrative": "Robert Onder 通过 US Congress PTR 减持 DUK / DUK。交易日 2026-10-29。"
         },
         {
           "id": "congress-2026-11-24-2026-10-29-robert-onder-HPQ-Sell",
@@ -1060,7 +1126,7 @@
           "narrative": "Robert Onder 通过 US Congress PTR 减持 HPQ / HPQ。交易日 2026-10-29。"
         },
         {
-          "id": "congress-2026-11-24-2026-10-29-robert-onder-MDT-Sell",
+          "id": "congress-2026-11-24-2026-10-29-robert-onder-USB-Sell",
           "market": "us",
           "investorId": "us_congress",
           "investorName": "Robert Onder",
@@ -1074,8 +1140,8 @@
           "filingDate": "2026-11-24",
           "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036908.pdf",
           "security": {
-            "ticker": "MDT",
-            "name": "MDT",
+            "ticker": "USB",
+            "name": "USB",
             "cusip": "",
             "title": "Disclosed range"
           },
@@ -1090,7 +1156,7 @@
           "significanceScore": 8000.5,
           "confidence": "medium",
           "staleDisclosure": false,
-          "narrative": "Robert Onder 通过 US Congress PTR 减持 MDT / MDT。交易日 2026-10-29。"
+          "narrative": "Robert Onder 通过 US Congress PTR 减持 USB / USB。交易日 2026-10-29。"
         },
         {
           "id": "congress-2026-11-24-2026-10-29-robert-onder-VZ-Sell",
@@ -1126,7 +1192,7 @@
           "narrative": "Robert Onder 通过 US Congress PTR 减持 VZ / VZ。交易日 2026-10-29。"
         },
         {
-          "id": "congress-2026-11-24-2026-10-29-robert-onder-DIS-Sell",
+          "id": "congress-2026-11-24-2026-10-29-robert-onder-MDT-Sell",
           "market": "us",
           "investorId": "us_congress",
           "investorName": "Robert Onder",
@@ -1140,8 +1206,8 @@
           "filingDate": "2026-11-24",
           "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036908.pdf",
           "security": {
-            "ticker": "DIS",
-            "name": "DIS",
+            "ticker": "MDT",
+            "name": "MDT",
             "cusip": "",
             "title": "Disclosed range"
           },
@@ -1156,40 +1222,7 @@
           "significanceScore": 8000.5,
           "confidence": "medium",
           "staleDisclosure": false,
-          "narrative": "Robert Onder 通过 US Congress PTR 减持 DIS / DIS。交易日 2026-10-29。"
-        },
-        {
-          "id": "congress-2026-11-24-2026-10-29-robert-onder-AMP-Sell",
-          "market": "us",
-          "investorId": "us_congress",
-          "investorName": "Robert Onder",
-          "vehicleName": "US Congress PTR",
-          "sourceTier": "L1",
-          "disclosureType": "STOCK Act PTR",
-          "sourceLabel": "House Clerk PTR",
-          "indexSourceLabel": "CongressFlow third-party index",
-          "reportDate": "2026-10-29",
-          "previousReportDate": null,
-          "filingDate": "2026-11-24",
-          "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036908.pdf",
-          "security": {
-            "ticker": "AMP",
-            "name": "AMP",
-            "cusip": "",
-            "title": "Disclosed range"
-          },
-          "direction": "decrease",
-          "sharesBefore": null,
-          "sharesAfter": null,
-          "sharesDelta": null,
-          "marketValueBefore": null,
-          "marketValueAfter": null,
-          "marketValueDelta": -8000.5,
-          "disclosedAmountRange": "$1,001 - $15,000",
-          "significanceScore": 8000.5,
-          "confidence": "medium",
-          "staleDisclosure": false,
-          "narrative": "Robert Onder 通过 US Congress PTR 减持 AMP / AMP。交易日 2026-10-29。"
+          "narrative": "Robert Onder 通过 US Congress PTR 减持 MDT / MDT。交易日 2026-10-29。"
         },
         {
           "id": "congress-2026-11-24-2026-10-29-robert-onder-CMCSA-Sell",
@@ -1225,7 +1258,7 @@
           "narrative": "Robert Onder 通过 US Congress PTR 减持 CMCSA / CMCSA。交易日 2026-10-29。"
         },
         {
-          "id": "congress-2026-11-24-2026-10-29-robert-onder-USB-Sell",
+          "id": "congress-2026-11-24-2026-10-29-robert-onder-AMP-Sell",
           "market": "us",
           "investorId": "us_congress",
           "investorName": "Robert Onder",
@@ -1239,8 +1272,8 @@
           "filingDate": "2026-11-24",
           "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036908.pdf",
           "security": {
-            "ticker": "USB",
-            "name": "USB",
+            "ticker": "AMP",
+            "name": "AMP",
             "cusip": "",
             "title": "Disclosed range"
           },
@@ -1255,7 +1288,73 @@
           "significanceScore": 8000.5,
           "confidence": "medium",
           "staleDisclosure": false,
-          "narrative": "Robert Onder 通过 US Congress PTR 减持 USB / USB。交易日 2026-10-29。"
+          "narrative": "Robert Onder 通过 US Congress PTR 减持 AMP / AMP。交易日 2026-10-29。"
+        },
+        {
+          "id": "congress-2026-11-24-2026-10-29-robert-onder-GEHC-Sell",
+          "market": "us",
+          "investorId": "us_congress",
+          "investorName": "Robert Onder",
+          "vehicleName": "US Congress PTR",
+          "sourceTier": "L1",
+          "disclosureType": "STOCK Act PTR",
+          "sourceLabel": "House Clerk PTR",
+          "indexSourceLabel": "CongressFlow third-party index",
+          "reportDate": "2026-10-29",
+          "previousReportDate": null,
+          "filingDate": "2026-11-24",
+          "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036908.pdf",
+          "security": {
+            "ticker": "GEHC",
+            "name": "GEHC",
+            "cusip": "",
+            "title": "Disclosed range"
+          },
+          "direction": "decrease",
+          "sharesBefore": null,
+          "sharesAfter": null,
+          "sharesDelta": null,
+          "marketValueBefore": null,
+          "marketValueAfter": null,
+          "marketValueDelta": -8000.5,
+          "disclosedAmountRange": "$1,001 - $15,000",
+          "significanceScore": 8000.5,
+          "confidence": "medium",
+          "staleDisclosure": false,
+          "narrative": "Robert Onder 通过 US Congress PTR 减持 GEHC / GEHC。交易日 2026-10-29。"
+        },
+        {
+          "id": "congress-2026-11-24-2026-10-29-robert-onder-DIS-Sell",
+          "market": "us",
+          "investorId": "us_congress",
+          "investorName": "Robert Onder",
+          "vehicleName": "US Congress PTR",
+          "sourceTier": "L1",
+          "disclosureType": "STOCK Act PTR",
+          "sourceLabel": "House Clerk PTR",
+          "indexSourceLabel": "CongressFlow third-party index",
+          "reportDate": "2026-10-29",
+          "previousReportDate": null,
+          "filingDate": "2026-11-24",
+          "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036908.pdf",
+          "security": {
+            "ticker": "DIS",
+            "name": "DIS",
+            "cusip": "",
+            "title": "Disclosed range"
+          },
+          "direction": "decrease",
+          "sharesBefore": null,
+          "sharesAfter": null,
+          "sharesDelta": null,
+          "marketValueBefore": null,
+          "marketValueAfter": null,
+          "marketValueDelta": -8000.5,
+          "disclosedAmountRange": "$1,001 - $15,000",
+          "significanceScore": 8000.5,
+          "confidence": "medium",
+          "staleDisclosure": false,
+          "narrative": "Robert Onder 通过 US Congress PTR 减持 DIS / DIS。交易日 2026-10-29。"
         },
         {
           "id": "congress-2026-11-24-2026-10-27-daniel-meuser-NVDA-Sell",
@@ -1357,105 +1456,6 @@
           "narrative": "Harriet Hageman 通过 US Congress PTR 增持 NOW / NOW。交易日 2026-10-20。"
         },
         {
-          "id": "congress-2026-11-24-2026-10-14-harriet-hageman-CSCO-Sell",
-          "market": "us",
-          "investorId": "us_congress",
-          "investorName": "Harriet Hageman",
-          "vehicleName": "US Congress PTR",
-          "sourceTier": "L1",
-          "disclosureType": "STOCK Act PTR",
-          "sourceLabel": "House Clerk PTR",
-          "indexSourceLabel": "CongressFlow third-party index",
-          "reportDate": "2026-10-14",
-          "previousReportDate": null,
-          "filingDate": "2026-11-24",
-          "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf",
-          "security": {
-            "ticker": "CSCO",
-            "name": "CSCO",
-            "cusip": "",
-            "title": "Disclosed range"
-          },
-          "direction": "decrease",
-          "sharesBefore": null,
-          "sharesAfter": null,
-          "sharesDelta": null,
-          "marketValueBefore": null,
-          "marketValueAfter": null,
-          "marketValueDelta": -8000.5,
-          "disclosedAmountRange": "$1,001 - $15,000",
-          "significanceScore": 8000.5,
-          "confidence": "medium",
-          "staleDisclosure": false,
-          "narrative": "Harriet Hageman 通过 US Congress PTR 减持 CSCO / CSCO。交易日 2026-10-14。"
-        },
-        {
-          "id": "congress-2026-11-24-2026-10-14-harriet-hageman-KO-Sell",
-          "market": "us",
-          "investorId": "us_congress",
-          "investorName": "Harriet Hageman",
-          "vehicleName": "US Congress PTR",
-          "sourceTier": "L1",
-          "disclosureType": "STOCK Act PTR",
-          "sourceLabel": "House Clerk PTR",
-          "indexSourceLabel": "CongressFlow third-party index",
-          "reportDate": "2026-10-14",
-          "previousReportDate": null,
-          "filingDate": "2026-11-24",
-          "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf",
-          "security": {
-            "ticker": "KO",
-            "name": "KO",
-            "cusip": "",
-            "title": "Disclosed range"
-          },
-          "direction": "decrease",
-          "sharesBefore": null,
-          "sharesAfter": null,
-          "sharesDelta": null,
-          "marketValueBefore": null,
-          "marketValueAfter": null,
-          "marketValueDelta": -8000.5,
-          "disclosedAmountRange": "$1,001 - $15,000",
-          "significanceScore": 8000.5,
-          "confidence": "medium",
-          "staleDisclosure": false,
-          "narrative": "Harriet Hageman 通过 US Congress PTR 减持 KO / KO。交易日 2026-10-14。"
-        },
-        {
-          "id": "congress-2026-11-24-2026-10-14-harriet-hageman-CRWD-Sell",
-          "market": "us",
-          "investorId": "us_congress",
-          "investorName": "Harriet Hageman",
-          "vehicleName": "US Congress PTR",
-          "sourceTier": "L1",
-          "disclosureType": "STOCK Act PTR",
-          "sourceLabel": "House Clerk PTR",
-          "indexSourceLabel": "CongressFlow third-party index",
-          "reportDate": "2026-10-14",
-          "previousReportDate": null,
-          "filingDate": "2026-11-24",
-          "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf",
-          "security": {
-            "ticker": "CRWD",
-            "name": "CRWD",
-            "cusip": "",
-            "title": "Disclosed range"
-          },
-          "direction": "decrease",
-          "sharesBefore": null,
-          "sharesAfter": null,
-          "sharesDelta": null,
-          "marketValueBefore": null,
-          "marketValueAfter": null,
-          "marketValueDelta": -8000.5,
-          "disclosedAmountRange": "$1,001 - $15,000",
-          "significanceScore": 8000.5,
-          "confidence": "medium",
-          "staleDisclosure": false,
-          "narrative": "Harriet Hageman 通过 US Congress PTR 减持 CRWD / CRWD。交易日 2026-10-14。"
-        },
-        {
           "id": "congress-2026-11-24-2026-10-14-harriet-hageman-AMGN-Sell",
           "market": "us",
           "investorId": "us_congress",
@@ -1487,39 +1487,6 @@
           "confidence": "medium",
           "staleDisclosure": false,
           "narrative": "Harriet Hageman 通过 US Congress PTR 减持 AMGN / AMGN。交易日 2026-10-14。"
-        },
-        {
-          "id": "congress-2026-11-24-2026-10-14-harriet-hageman-CVS-Sell",
-          "market": "us",
-          "investorId": "us_congress",
-          "investorName": "Harriet Hageman",
-          "vehicleName": "US Congress PTR",
-          "sourceTier": "L1",
-          "disclosureType": "STOCK Act PTR",
-          "sourceLabel": "House Clerk PTR",
-          "indexSourceLabel": "CongressFlow third-party index",
-          "reportDate": "2026-10-14",
-          "previousReportDate": null,
-          "filingDate": "2026-11-24",
-          "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf",
-          "security": {
-            "ticker": "CVS",
-            "name": "CVS",
-            "cusip": "",
-            "title": "Disclosed range"
-          },
-          "direction": "decrease",
-          "sharesBefore": null,
-          "sharesAfter": null,
-          "sharesDelta": null,
-          "marketValueBefore": null,
-          "marketValueAfter": null,
-          "marketValueDelta": -8000.5,
-          "disclosedAmountRange": "$1,001 - $15,000",
-          "significanceScore": 8000.5,
-          "confidence": "medium",
-          "staleDisclosure": false,
-          "narrative": "Harriet Hageman 通过 US Congress PTR 减持 CVS / CVS。交易日 2026-10-14。"
         },
         {
           "id": "congress-2026-11-24-2026-10-14-harriet-hageman-APD-Sell",
@@ -1555,7 +1522,7 @@
           "narrative": "Harriet Hageman 通过 US Congress PTR 减持 APD / APD。交易日 2026-10-14。"
         },
         {
-          "id": "congress-2026-11-24-2026-10-14-harriet-hageman-LLY-Sell",
+          "id": "congress-2026-11-24-2026-10-14-harriet-hageman-AMD-Sell",
           "market": "us",
           "investorId": "us_congress",
           "investorName": "Harriet Hageman",
@@ -1569,8 +1536,8 @@
           "filingDate": "2026-11-24",
           "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf",
           "security": {
-            "ticker": "LLY",
-            "name": "LLY",
+            "ticker": "AMD",
+            "name": "AMD",
             "cusip": "",
             "title": "Disclosed range"
           },
@@ -1585,7 +1552,40 @@
           "significanceScore": 8000.5,
           "confidence": "medium",
           "staleDisclosure": false,
-          "narrative": "Harriet Hageman 通过 US Congress PTR 减持 LLY / LLY。交易日 2026-10-14。"
+          "narrative": "Harriet Hageman 通过 US Congress PTR 减持 AMD / AMD。交易日 2026-10-14。"
+        },
+        {
+          "id": "congress-2026-11-24-2026-10-14-harriet-hageman-KO-Sell",
+          "market": "us",
+          "investorId": "us_congress",
+          "investorName": "Harriet Hageman",
+          "vehicleName": "US Congress PTR",
+          "sourceTier": "L1",
+          "disclosureType": "STOCK Act PTR",
+          "sourceLabel": "House Clerk PTR",
+          "indexSourceLabel": "CongressFlow third-party index",
+          "reportDate": "2026-10-14",
+          "previousReportDate": null,
+          "filingDate": "2026-11-24",
+          "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf",
+          "security": {
+            "ticker": "KO",
+            "name": "KO",
+            "cusip": "",
+            "title": "Disclosed range"
+          },
+          "direction": "decrease",
+          "sharesBefore": null,
+          "sharesAfter": null,
+          "sharesDelta": null,
+          "marketValueBefore": null,
+          "marketValueAfter": null,
+          "marketValueDelta": -8000.5,
+          "disclosedAmountRange": "$1,001 - $15,000",
+          "significanceScore": 8000.5,
+          "confidence": "medium",
+          "staleDisclosure": false,
+          "narrative": "Harriet Hageman 通过 US Congress PTR 减持 KO / KO。交易日 2026-10-14。"
         },
         {
           "id": "congress-2026-11-24-2026-10-14-harriet-hageman-AAPL-Sell",
@@ -1621,7 +1621,7 @@
           "narrative": "Harriet Hageman 通过 US Congress PTR 减持 AAPL / AAPL。交易日 2026-10-14。"
         },
         {
-          "id": "congress-2026-11-24-2026-10-14-harriet-hageman-AMD-Sell",
+          "id": "congress-2026-11-24-2026-10-14-harriet-hageman-CSCO-Sell",
           "market": "us",
           "investorId": "us_congress",
           "investorName": "Harriet Hageman",
@@ -1635,8 +1635,8 @@
           "filingDate": "2026-11-24",
           "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf",
           "security": {
-            "ticker": "AMD",
-            "name": "AMD",
+            "ticker": "CSCO",
+            "name": "CSCO",
             "cusip": "",
             "title": "Disclosed range"
           },
@@ -1651,32 +1651,42 @@
           "significanceScore": 8000.5,
           "confidence": "medium",
           "staleDisclosure": false,
-          "narrative": "Harriet Hageman 通过 US Congress PTR 减持 AMD / AMD。交易日 2026-10-14。"
+          "narrative": "Harriet Hageman 通过 US Congress PTR 减持 CSCO / CSCO。交易日 2026-10-14。"
         }
       ],
       "topIncreases": [
         {
-          "ticker": "NOW",
-          "name": "NOW",
+          "ticker": "NVDA",
+          "name": "NVDA",
           "market": "us",
           "direction": "increase",
           "value": 8000.5,
           "valueCurrency": "USD",
-          "date": "2026-11-24",
-          "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf"
+          "date": "2026-11-25",
+          "evidenceUrl": "https://efdsearch.senate.gov/search/view/ptr/99dc7269-2f99-4c8b-8d0c-a3a91328af84/"
+        },
+        {
+          "ticker": "NVDA",
+          "name": "NVDA",
+          "market": "us",
+          "direction": "increase",
+          "value": 8000.5,
+          "valueCurrency": "USD",
+          "date": "2026-11-25",
+          "evidenceUrl": "https://efdsearch.senate.gov/search/view/ptr/99dc7269-2f99-4c8b-8d0c-a3a91328af84/"
+        },
+        {
+          "ticker": "NVDA",
+          "name": "NVDA",
+          "market": "us",
+          "direction": "increase",
+          "value": 8000.5,
+          "valueCurrency": "USD",
+          "date": "2026-11-25",
+          "evidenceUrl": "https://efdsearch.senate.gov/search/view/ptr/99dc7269-2f99-4c8b-8d0c-a3a91328af84/"
         }
       ],
       "topDecreases": [
-        {
-          "ticker": "DUK",
-          "name": "DUK",
-          "market": "us",
-          "direction": "decrease",
-          "value": -32500.5,
-          "valueCurrency": "USD",
-          "date": "2026-11-24",
-          "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036908.pdf"
-        },
         {
           "ticker": "MDLZ",
           "name": "MDLZ",
@@ -1690,6 +1700,16 @@
         {
           "ticker": "PEP",
           "name": "PEP",
+          "market": "us",
+          "direction": "decrease",
+          "value": -32500.5,
+          "valueCurrency": "USD",
+          "date": "2026-11-24",
+          "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036908.pdf"
+        },
+        {
+          "ticker": "PG",
+          "name": "PG",
           "market": "us",
           "direction": "decrease",
           "value": -32500.5,
@@ -2243,11 +2263,11 @@
         }
       ],
       "returns": {
-        "oneYearPct": -3.4686024697095874,
-        "threeYearPct": 19.131363757174256,
+        "oneYearPct": -4.033811315389583,
+        "threeYearPct": 17.505739870600376,
         "sourceLabel": "A股前十大股东 Top持仓价格代理 · 覆盖 100%",
         "sourceUrl": "https://emweb.securities.eastmoney.com/PC_HSF10/ShareholderResearch/Index?type=web&code=SZ002415",
-        "asOf": "2026-11-26",
+        "asOf": "2026-11-25",
         "isProxy": true,
         "proxyDisclosure": "按当前公开 Top 持仓价格估算，不代表管理人真实组合净值或产品收益"
       }
@@ -3006,11 +3026,11 @@
         }
       ],
       "returns": {
-        "oneYearPct": -8.780781902055194,
-        "threeYearPct": 48.648058974897324,
+        "oneYearPct": -9.439493233274922,
+        "threeYearPct": 47.41741686535706,
         "sourceLabel": "A股前十大股东 Top持仓价格代理 · 覆盖 100%",
         "sourceUrl": "https://emweb.securities.eastmoney.com/PC_HSF10/ShareholderResearch/Index?type=web&code=SZ002594",
-        "asOf": "2026-11-26",
+        "asOf": "2026-11-25",
         "isProxy": true,
         "proxyDisclosure": "按当前公开 Top 持仓价格估算，不代表管理人真实组合净值或产品收益"
       }
@@ -3133,11 +3153,11 @@
       "topIncreases": [],
       "topDecreases": [],
       "returns": {
-        "oneYearPct": 16.965508556321307,
-        "threeYearPct": 96.35997067390085,
+        "oneYearPct": 17.065133541514662,
+        "threeYearPct": 96.59325832177878,
         "sourceLabel": "A股前十大股东 Top持仓价格代理 · 覆盖 100%",
         "sourceUrl": "https://emweb.securities.eastmoney.com/PC_HSF10/ShareholderResearch/Index?type=web&code=SH601939",
-        "asOf": "2026-11-26",
+        "asOf": "2026-11-25",
         "isProxy": true,
         "proxyDisclosure": "按当前公开 Top 持仓价格估算，不代表管理人真实组合净值或产品收益"
       }
@@ -3259,11 +3279,11 @@
       "topIncreases": [],
       "topDecreases": [],
       "returns": {
-        "oneYearPct": 17.326802069925275,
-        "threeYearPct": 75.27672551020842,
+        "oneYearPct": 17.244446180202996,
+        "threeYearPct": 75.22328814566738,
         "sourceLabel": "A股前十大股东 Top持仓价格代理 · 覆盖 100%",
         "sourceUrl": "https://emweb.securities.eastmoney.com/PC_HSF10/ShareholderResearch/Index?type=web&code=SH601988",
-        "asOf": "2026-11-26",
+        "asOf": "2026-11-25",
         "isProxy": true,
         "proxyDisclosure": "按当前公开 Top 持仓价格估算，不代表管理人真实组合净值或产品收益"
       }
@@ -3428,11 +3448,11 @@
         }
       ],
       "returns": {
-        "oneYearPct": -33.567348261665146,
-        "threeYearPct": 15.144155472822675,
+        "oneYearPct": -34.13261504571524,
+        "threeYearPct": 14.197321120677147,
         "sourceLabel": "A股前十大股东 Top持仓价格代理 · 覆盖 100%",
         "sourceUrl": "https://emweb.securities.eastmoney.com/PC_HSF10/ShareholderResearch/Index?type=web&code=SH688802",
-        "asOf": "2026-11-26",
+        "asOf": "2026-11-25",
         "isProxy": true,
         "proxyDisclosure": "按当前公开 Top 持仓价格估算，不代表管理人真实组合净值或产品收益"
       }
@@ -4129,11 +4149,11 @@
         }
       ],
       "returns": {
-        "oneYearPct": -13.623493527658319,
-        "threeYearPct": 62.37516241292756,
+        "oneYearPct": -13.916889495400392,
+        "threeYearPct": 61.122807581171195,
         "sourceLabel": "A股前十大股东 Top持仓价格代理 · 覆盖 100%",
         "sourceUrl": "https://emweb.securities.eastmoney.com/PC_HSF10/ShareholderResearch/Index?type=web&code=SZ300750",
-        "asOf": "2026-11-26",
+        "asOf": "2026-11-25",
         "isProxy": true,
         "proxyDisclosure": "按当前公开 Top 持仓价格估算，不代表管理人真实组合净值或产品收益"
       }
@@ -4860,11 +4880,11 @@
         }
       ],
       "returns": {
-        "oneYearPct": 16.581014261375167,
-        "threeYearPct": 92.42606427527521,
+        "oneYearPct": 14.685915709906753,
+        "threeYearPct": 87.7993378746685,
         "sourceLabel": "A股前十大股东 Top持仓价格代理 · 覆盖 100%",
         "sourceUrl": "https://emweb.securities.eastmoney.com/PC_HSF10/ShareholderResearch/Index?type=web&code=SH601328",
-        "asOf": "2026-11-26",
+        "asOf": "2026-11-25",
         "isProxy": true,
         "proxyDisclosure": "按当前公开 Top 持仓价格估算，不代表管理人真实组合净值或产品收益"
       }
@@ -4953,11 +4973,11 @@
         }
       ],
       "returns": {
-        "oneYearPct": -54.47154494466962,
-        "threeYearPct": -43.015729802991714,
+        "oneYearPct": -54.10199437762107,
+        "threeYearPct": -42.553193366414625,
         "sourceLabel": "A股前十大股东 Top持仓价格代理 · 覆盖 100%",
         "sourceUrl": "https://emweb.securities.eastmoney.com/PC_HSF10/ShareholderResearch/Index?type=web&code=SZ002153",
-        "asOf": "2026-11-26",
+        "asOf": "2026-11-25",
         "isProxy": true,
         "proxyDisclosure": "按当前公开 Top 持仓价格估算，不代表管理人真实组合净值或产品收益"
       }
@@ -5719,6 +5739,105 @@
       "confidence": "medium",
       "staleDisclosure": false,
       "narrative": "Cathie Wood 通过 ARKQ / ARK Active ETFs 减持 BYDDY / BYD Company。交易日 2026-11-25。"
+    },
+    {
+      "id": "congress-2026-11-25-2026-11-09-paul-rand-senator--NVDA-Buy",
+      "market": "us",
+      "investorId": "us_congress",
+      "investorName": "Paul, Rand (Senator)",
+      "vehicleName": "US Congress PTR",
+      "sourceTier": "L1",
+      "disclosureType": "STOCK Act PTR",
+      "sourceLabel": "Senate eFD PTR",
+      "indexSourceLabel": "CongressFlow third-party index",
+      "reportDate": "2026-11-09",
+      "previousReportDate": null,
+      "filingDate": "2026-11-25",
+      "evidenceUrl": "https://efdsearch.senate.gov/search/view/ptr/99dc7269-2f99-4c8b-8d0c-a3a91328af84/",
+      "security": {
+        "ticker": "NVDA",
+        "name": "NVDA",
+        "cusip": "",
+        "title": "Disclosed range"
+      },
+      "direction": "increase",
+      "sharesBefore": null,
+      "sharesAfter": null,
+      "sharesDelta": null,
+      "marketValueBefore": null,
+      "marketValueAfter": null,
+      "marketValueDelta": 8000.5,
+      "disclosedAmountRange": "$1,001 - $15,000",
+      "significanceScore": 8000.5,
+      "confidence": "medium",
+      "staleDisclosure": false,
+      "narrative": "Paul, Rand (Senator) 通过 US Congress PTR 增持 NVDA / NVDA。交易日 2026-11-09。"
+    },
+    {
+      "id": "congress-2026-11-25-2026-11-07-paul-rand-senator--NVDA-Buy",
+      "market": "us",
+      "investorId": "us_congress",
+      "investorName": "Paul, Rand (Senator)",
+      "vehicleName": "US Congress PTR",
+      "sourceTier": "L1",
+      "disclosureType": "STOCK Act PTR",
+      "sourceLabel": "Senate eFD PTR",
+      "indexSourceLabel": "CongressFlow third-party index",
+      "reportDate": "2026-11-07",
+      "previousReportDate": null,
+      "filingDate": "2026-11-25",
+      "evidenceUrl": "https://efdsearch.senate.gov/search/view/ptr/99dc7269-2f99-4c8b-8d0c-a3a91328af84/",
+      "security": {
+        "ticker": "NVDA",
+        "name": "NVDA",
+        "cusip": "",
+        "title": "Disclosed range"
+      },
+      "direction": "increase",
+      "sharesBefore": null,
+      "sharesAfter": null,
+      "sharesDelta": null,
+      "marketValueBefore": null,
+      "marketValueAfter": null,
+      "marketValueDelta": 8000.5,
+      "disclosedAmountRange": "$1,001 - $15,000",
+      "significanceScore": 8000.5,
+      "confidence": "medium",
+      "staleDisclosure": false,
+      "narrative": "Paul, Rand (Senator) 通过 US Congress PTR 增持 NVDA / NVDA。交易日 2026-11-07。"
+    },
+    {
+      "id": "congress-2026-11-25-2026-11-05-paul-rand-senator--NVDA-Buy",
+      "market": "us",
+      "investorId": "us_congress",
+      "investorName": "Paul, Rand (Senator)",
+      "vehicleName": "US Congress PTR",
+      "sourceTier": "L1",
+      "disclosureType": "STOCK Act PTR",
+      "sourceLabel": "Senate eFD PTR",
+      "indexSourceLabel": "CongressFlow third-party index",
+      "reportDate": "2026-11-05",
+      "previousReportDate": null,
+      "filingDate": "2026-11-25",
+      "evidenceUrl": "https://efdsearch.senate.gov/search/view/ptr/99dc7269-2f99-4c8b-8d0c-a3a91328af84/",
+      "security": {
+        "ticker": "NVDA",
+        "name": "NVDA",
+        "cusip": "",
+        "title": "Disclosed range"
+      },
+      "direction": "increase",
+      "sharesBefore": null,
+      "sharesAfter": null,
+      "sharesDelta": null,
+      "marketValueBefore": null,
+      "marketValueAfter": null,
+      "marketValueDelta": 8000.5,
+      "disclosedAmountRange": "$1,001 - $15,000",
+      "significanceScore": 8000.5,
+      "confidence": "medium",
+      "staleDisclosure": false,
+      "narrative": "Paul, Rand (Senator) 通过 US Congress PTR 增持 NVDA / NVDA。交易日 2026-11-05。"
     },
     {
       "id": "cathiesark-2026-11-25T00:00:00.000Z-ARKW-SOLQ.U-Sell-9459",
@@ -7125,39 +7244,6 @@
       "narrative": "Cathie Wood 通过 ARKQ / ARK Active ETFs 减持 BYDDY / BYD Company。交易日 2026-11-24。"
     },
     {
-      "id": "congress-2026-11-24-2026-10-29-robert-onder-DUK-Sell",
-      "market": "us",
-      "investorId": "us_congress",
-      "investorName": "Robert Onder",
-      "vehicleName": "US Congress PTR",
-      "sourceTier": "L1",
-      "disclosureType": "STOCK Act PTR",
-      "sourceLabel": "House Clerk PTR",
-      "indexSourceLabel": "CongressFlow third-party index",
-      "reportDate": "2026-10-29",
-      "previousReportDate": null,
-      "filingDate": "2026-11-24",
-      "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036908.pdf",
-      "security": {
-        "ticker": "DUK",
-        "name": "DUK",
-        "cusip": "",
-        "title": "Disclosed range"
-      },
-      "direction": "decrease",
-      "sharesBefore": null,
-      "sharesAfter": null,
-      "sharesDelta": null,
-      "marketValueBefore": null,
-      "marketValueAfter": null,
-      "marketValueDelta": -32500.5,
-      "disclosedAmountRange": "$15,001 - $50,000",
-      "significanceScore": 32500.5,
-      "confidence": "medium",
-      "staleDisclosure": false,
-      "narrative": "Robert Onder 通过 US Congress PTR 减持 DUK / DUK。交易日 2026-10-29。"
-    },
-    {
       "id": "congress-2026-11-24-2026-10-29-robert-onder-MDLZ-Sell",
       "market": "us",
       "investorId": "us_congress",
@@ -7257,7 +7343,7 @@
       "narrative": "Robert Onder 通过 US Congress PTR 减持 PG / PG。交易日 2026-10-29。"
     },
     {
-      "id": "congress-2026-11-24-2026-10-29-robert-onder-GEHC-Sell",
+      "id": "congress-2026-11-24-2026-10-29-robert-onder-DUK-Sell",
       "market": "us",
       "investorId": "us_congress",
       "investorName": "Robert Onder",
@@ -7271,8 +7357,8 @@
       "filingDate": "2026-11-24",
       "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036908.pdf",
       "security": {
-        "ticker": "GEHC",
-        "name": "GEHC",
+        "ticker": "DUK",
+        "name": "DUK",
         "cusip": "",
         "title": "Disclosed range"
       },
@@ -7282,12 +7368,12 @@
       "sharesDelta": null,
       "marketValueBefore": null,
       "marketValueAfter": null,
-      "marketValueDelta": -8000.5,
-      "disclosedAmountRange": "$1,001 - $15,000",
-      "significanceScore": 8000.5,
+      "marketValueDelta": -32500.5,
+      "disclosedAmountRange": "$15,001 - $50,000",
+      "significanceScore": 32500.5,
       "confidence": "medium",
       "staleDisclosure": false,
-      "narrative": "Robert Onder 通过 US Congress PTR 减持 GEHC / GEHC。交易日 2026-10-29。"
+      "narrative": "Robert Onder 通过 US Congress PTR 减持 DUK / DUK。交易日 2026-10-29。"
     },
     {
       "id": "congress-2026-11-24-2026-10-29-robert-onder-HPQ-Sell",
@@ -7323,7 +7409,7 @@
       "narrative": "Robert Onder 通过 US Congress PTR 减持 HPQ / HPQ。交易日 2026-10-29。"
     },
     {
-      "id": "congress-2026-11-24-2026-10-29-robert-onder-MDT-Sell",
+      "id": "congress-2026-11-24-2026-10-29-robert-onder-USB-Sell",
       "market": "us",
       "investorId": "us_congress",
       "investorName": "Robert Onder",
@@ -7337,8 +7423,8 @@
       "filingDate": "2026-11-24",
       "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036908.pdf",
       "security": {
-        "ticker": "MDT",
-        "name": "MDT",
+        "ticker": "USB",
+        "name": "USB",
         "cusip": "",
         "title": "Disclosed range"
       },
@@ -7353,7 +7439,7 @@
       "significanceScore": 8000.5,
       "confidence": "medium",
       "staleDisclosure": false,
-      "narrative": "Robert Onder 通过 US Congress PTR 减持 MDT / MDT。交易日 2026-10-29。"
+      "narrative": "Robert Onder 通过 US Congress PTR 减持 USB / USB。交易日 2026-10-29。"
     },
     {
       "id": "congress-2026-11-24-2026-10-29-robert-onder-VZ-Sell",
@@ -7389,7 +7475,7 @@
       "narrative": "Robert Onder 通过 US Congress PTR 减持 VZ / VZ。交易日 2026-10-29。"
     },
     {
-      "id": "congress-2026-11-24-2026-10-29-robert-onder-DIS-Sell",
+      "id": "congress-2026-11-24-2026-10-29-robert-onder-MDT-Sell",
       "market": "us",
       "investorId": "us_congress",
       "investorName": "Robert Onder",
@@ -7403,8 +7489,8 @@
       "filingDate": "2026-11-24",
       "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036908.pdf",
       "security": {
-        "ticker": "DIS",
-        "name": "DIS",
+        "ticker": "MDT",
+        "name": "MDT",
         "cusip": "",
         "title": "Disclosed range"
       },
@@ -7419,40 +7505,7 @@
       "significanceScore": 8000.5,
       "confidence": "medium",
       "staleDisclosure": false,
-      "narrative": "Robert Onder 通过 US Congress PTR 减持 DIS / DIS。交易日 2026-10-29。"
-    },
-    {
-      "id": "congress-2026-11-24-2026-10-29-robert-onder-AMP-Sell",
-      "market": "us",
-      "investorId": "us_congress",
-      "investorName": "Robert Onder",
-      "vehicleName": "US Congress PTR",
-      "sourceTier": "L1",
-      "disclosureType": "STOCK Act PTR",
-      "sourceLabel": "House Clerk PTR",
-      "indexSourceLabel": "CongressFlow third-party index",
-      "reportDate": "2026-10-29",
-      "previousReportDate": null,
-      "filingDate": "2026-11-24",
-      "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036908.pdf",
-      "security": {
-        "ticker": "AMP",
-        "name": "AMP",
-        "cusip": "",
-        "title": "Disclosed range"
-      },
-      "direction": "decrease",
-      "sharesBefore": null,
-      "sharesAfter": null,
-      "sharesDelta": null,
-      "marketValueBefore": null,
-      "marketValueAfter": null,
-      "marketValueDelta": -8000.5,
-      "disclosedAmountRange": "$1,001 - $15,000",
-      "significanceScore": 8000.5,
-      "confidence": "medium",
-      "staleDisclosure": false,
-      "narrative": "Robert Onder 通过 US Congress PTR 减持 AMP / AMP。交易日 2026-10-29。"
+      "narrative": "Robert Onder 通过 US Congress PTR 减持 MDT / MDT。交易日 2026-10-29。"
     },
     {
       "id": "congress-2026-11-24-2026-10-29-robert-onder-CMCSA-Sell",
@@ -7488,7 +7541,7 @@
       "narrative": "Robert Onder 通过 US Congress PTR 减持 CMCSA / CMCSA。交易日 2026-10-29。"
     },
     {
-      "id": "congress-2026-11-24-2026-10-29-robert-onder-USB-Sell",
+      "id": "congress-2026-11-24-2026-10-29-robert-onder-AMP-Sell",
       "market": "us",
       "investorId": "us_congress",
       "investorName": "Robert Onder",
@@ -7502,8 +7555,8 @@
       "filingDate": "2026-11-24",
       "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036908.pdf",
       "security": {
-        "ticker": "USB",
-        "name": "USB",
+        "ticker": "AMP",
+        "name": "AMP",
         "cusip": "",
         "title": "Disclosed range"
       },
@@ -7518,7 +7571,73 @@
       "significanceScore": 8000.5,
       "confidence": "medium",
       "staleDisclosure": false,
-      "narrative": "Robert Onder 通过 US Congress PTR 减持 USB / USB。交易日 2026-10-29。"
+      "narrative": "Robert Onder 通过 US Congress PTR 减持 AMP / AMP。交易日 2026-10-29。"
+    },
+    {
+      "id": "congress-2026-11-24-2026-10-29-robert-onder-GEHC-Sell",
+      "market": "us",
+      "investorId": "us_congress",
+      "investorName": "Robert Onder",
+      "vehicleName": "US Congress PTR",
+      "sourceTier": "L1",
+      "disclosureType": "STOCK Act PTR",
+      "sourceLabel": "House Clerk PTR",
+      "indexSourceLabel": "CongressFlow third-party index",
+      "reportDate": "2026-10-29",
+      "previousReportDate": null,
+      "filingDate": "2026-11-24",
+      "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036908.pdf",
+      "security": {
+        "ticker": "GEHC",
+        "name": "GEHC",
+        "cusip": "",
+        "title": "Disclosed range"
+      },
+      "direction": "decrease",
+      "sharesBefore": null,
+      "sharesAfter": null,
+      "sharesDelta": null,
+      "marketValueBefore": null,
+      "marketValueAfter": null,
+      "marketValueDelta": -8000.5,
+      "disclosedAmountRange": "$1,001 - $15,000",
+      "significanceScore": 8000.5,
+      "confidence": "medium",
+      "staleDisclosure": false,
+      "narrative": "Robert Onder 通过 US Congress PTR 减持 GEHC / GEHC。交易日 2026-10-29。"
+    },
+    {
+      "id": "congress-2026-11-24-2026-10-29-robert-onder-DIS-Sell",
+      "market": "us",
+      "investorId": "us_congress",
+      "investorName": "Robert Onder",
+      "vehicleName": "US Congress PTR",
+      "sourceTier": "L1",
+      "disclosureType": "STOCK Act PTR",
+      "sourceLabel": "House Clerk PTR",
+      "indexSourceLabel": "CongressFlow third-party index",
+      "reportDate": "2026-10-29",
+      "previousReportDate": null,
+      "filingDate": "2026-11-24",
+      "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20036908.pdf",
+      "security": {
+        "ticker": "DIS",
+        "name": "DIS",
+        "cusip": "",
+        "title": "Disclosed range"
+      },
+      "direction": "decrease",
+      "sharesBefore": null,
+      "sharesAfter": null,
+      "sharesDelta": null,
+      "marketValueBefore": null,
+      "marketValueAfter": null,
+      "marketValueDelta": -8000.5,
+      "disclosedAmountRange": "$1,001 - $15,000",
+      "significanceScore": 8000.5,
+      "confidence": "medium",
+      "staleDisclosure": false,
+      "narrative": "Robert Onder 通过 US Congress PTR 减持 DIS / DIS。交易日 2026-10-29。"
     },
     {
       "id": "congress-2026-11-24-2026-10-27-daniel-meuser-NVDA-Sell",
@@ -7620,105 +7739,6 @@
       "narrative": "Harriet Hageman 通过 US Congress PTR 增持 NOW / NOW。交易日 2026-10-20。"
     },
     {
-      "id": "congress-2026-11-24-2026-10-14-harriet-hageman-CSCO-Sell",
-      "market": "us",
-      "investorId": "us_congress",
-      "investorName": "Harriet Hageman",
-      "vehicleName": "US Congress PTR",
-      "sourceTier": "L1",
-      "disclosureType": "STOCK Act PTR",
-      "sourceLabel": "House Clerk PTR",
-      "indexSourceLabel": "CongressFlow third-party index",
-      "reportDate": "2026-10-14",
-      "previousReportDate": null,
-      "filingDate": "2026-11-24",
-      "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf",
-      "security": {
-        "ticker": "CSCO",
-        "name": "CSCO",
-        "cusip": "",
-        "title": "Disclosed range"
-      },
-      "direction": "decrease",
-      "sharesBefore": null,
-      "sharesAfter": null,
-      "sharesDelta": null,
-      "marketValueBefore": null,
-      "marketValueAfter": null,
-      "marketValueDelta": -8000.5,
-      "disclosedAmountRange": "$1,001 - $15,000",
-      "significanceScore": 8000.5,
-      "confidence": "medium",
-      "staleDisclosure": false,
-      "narrative": "Harriet Hageman 通过 US Congress PTR 减持 CSCO / CSCO。交易日 2026-10-14。"
-    },
-    {
-      "id": "congress-2026-11-24-2026-10-14-harriet-hageman-KO-Sell",
-      "market": "us",
-      "investorId": "us_congress",
-      "investorName": "Harriet Hageman",
-      "vehicleName": "US Congress PTR",
-      "sourceTier": "L1",
-      "disclosureType": "STOCK Act PTR",
-      "sourceLabel": "House Clerk PTR",
-      "indexSourceLabel": "CongressFlow third-party index",
-      "reportDate": "2026-10-14",
-      "previousReportDate": null,
-      "filingDate": "2026-11-24",
-      "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf",
-      "security": {
-        "ticker": "KO",
-        "name": "KO",
-        "cusip": "",
-        "title": "Disclosed range"
-      },
-      "direction": "decrease",
-      "sharesBefore": null,
-      "sharesAfter": null,
-      "sharesDelta": null,
-      "marketValueBefore": null,
-      "marketValueAfter": null,
-      "marketValueDelta": -8000.5,
-      "disclosedAmountRange": "$1,001 - $15,000",
-      "significanceScore": 8000.5,
-      "confidence": "medium",
-      "staleDisclosure": false,
-      "narrative": "Harriet Hageman 通过 US Congress PTR 减持 KO / KO。交易日 2026-10-14。"
-    },
-    {
-      "id": "congress-2026-11-24-2026-10-14-harriet-hageman-CRWD-Sell",
-      "market": "us",
-      "investorId": "us_congress",
-      "investorName": "Harriet Hageman",
-      "vehicleName": "US Congress PTR",
-      "sourceTier": "L1",
-      "disclosureType": "STOCK Act PTR",
-      "sourceLabel": "House Clerk PTR",
-      "indexSourceLabel": "CongressFlow third-party index",
-      "reportDate": "2026-10-14",
-      "previousReportDate": null,
-      "filingDate": "2026-11-24",
-      "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf",
-      "security": {
-        "ticker": "CRWD",
-        "name": "CRWD",
-        "cusip": "",
-        "title": "Disclosed range"
-      },
-      "direction": "decrease",
-      "sharesBefore": null,
-      "sharesAfter": null,
-      "sharesDelta": null,
-      "marketValueBefore": null,
-      "marketValueAfter": null,
-      "marketValueDelta": -8000.5,
-      "disclosedAmountRange": "$1,001 - $15,000",
-      "significanceScore": 8000.5,
-      "confidence": "medium",
-      "staleDisclosure": false,
-      "narrative": "Harriet Hageman 通过 US Congress PTR 减持 CRWD / CRWD。交易日 2026-10-14。"
-    },
-    {
       "id": "congress-2026-11-24-2026-10-14-harriet-hageman-AMGN-Sell",
       "market": "us",
       "investorId": "us_congress",
@@ -7750,39 +7770,6 @@
       "confidence": "medium",
       "staleDisclosure": false,
       "narrative": "Harriet Hageman 通过 US Congress PTR 减持 AMGN / AMGN。交易日 2026-10-14。"
-    },
-    {
-      "id": "congress-2026-11-24-2026-10-14-harriet-hageman-CVS-Sell",
-      "market": "us",
-      "investorId": "us_congress",
-      "investorName": "Harriet Hageman",
-      "vehicleName": "US Congress PTR",
-      "sourceTier": "L1",
-      "disclosureType": "STOCK Act PTR",
-      "sourceLabel": "House Clerk PTR",
-      "indexSourceLabel": "CongressFlow third-party index",
-      "reportDate": "2026-10-14",
-      "previousReportDate": null,
-      "filingDate": "2026-11-24",
-      "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf",
-      "security": {
-        "ticker": "CVS",
-        "name": "CVS",
-        "cusip": "",
-        "title": "Disclosed range"
-      },
-      "direction": "decrease",
-      "sharesBefore": null,
-      "sharesAfter": null,
-      "sharesDelta": null,
-      "marketValueBefore": null,
-      "marketValueAfter": null,
-      "marketValueDelta": -8000.5,
-      "disclosedAmountRange": "$1,001 - $15,000",
-      "significanceScore": 8000.5,
-      "confidence": "medium",
-      "staleDisclosure": false,
-      "narrative": "Harriet Hageman 通过 US Congress PTR 减持 CVS / CVS。交易日 2026-10-14。"
     },
     {
       "id": "congress-2026-11-24-2026-10-14-harriet-hageman-APD-Sell",
@@ -7818,7 +7805,7 @@
       "narrative": "Harriet Hageman 通过 US Congress PTR 减持 APD / APD。交易日 2026-10-14。"
     },
     {
-      "id": "congress-2026-11-24-2026-10-14-harriet-hageman-LLY-Sell",
+      "id": "congress-2026-11-24-2026-10-14-harriet-hageman-AMD-Sell",
       "market": "us",
       "investorId": "us_congress",
       "investorName": "Harriet Hageman",
@@ -7832,8 +7819,8 @@
       "filingDate": "2026-11-24",
       "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf",
       "security": {
-        "ticker": "LLY",
-        "name": "LLY",
+        "ticker": "AMD",
+        "name": "AMD",
         "cusip": "",
         "title": "Disclosed range"
       },
@@ -7848,7 +7835,40 @@
       "significanceScore": 8000.5,
       "confidence": "medium",
       "staleDisclosure": false,
-      "narrative": "Harriet Hageman 通过 US Congress PTR 减持 LLY / LLY。交易日 2026-10-14。"
+      "narrative": "Harriet Hageman 通过 US Congress PTR 减持 AMD / AMD。交易日 2026-10-14。"
+    },
+    {
+      "id": "congress-2026-11-24-2026-10-14-harriet-hageman-KO-Sell",
+      "market": "us",
+      "investorId": "us_congress",
+      "investorName": "Harriet Hageman",
+      "vehicleName": "US Congress PTR",
+      "sourceTier": "L1",
+      "disclosureType": "STOCK Act PTR",
+      "sourceLabel": "House Clerk PTR",
+      "indexSourceLabel": "CongressFlow third-party index",
+      "reportDate": "2026-10-14",
+      "previousReportDate": null,
+      "filingDate": "2026-11-24",
+      "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf",
+      "security": {
+        "ticker": "KO",
+        "name": "KO",
+        "cusip": "",
+        "title": "Disclosed range"
+      },
+      "direction": "decrease",
+      "sharesBefore": null,
+      "sharesAfter": null,
+      "sharesDelta": null,
+      "marketValueBefore": null,
+      "marketValueAfter": null,
+      "marketValueDelta": -8000.5,
+      "disclosedAmountRange": "$1,001 - $15,000",
+      "significanceScore": 8000.5,
+      "confidence": "medium",
+      "staleDisclosure": false,
+      "narrative": "Harriet Hageman 通过 US Congress PTR 减持 KO / KO。交易日 2026-10-14。"
     },
     {
       "id": "congress-2026-11-24-2026-10-14-harriet-hageman-AAPL-Sell",
@@ -7884,7 +7904,7 @@
       "narrative": "Harriet Hageman 通过 US Congress PTR 减持 AAPL / AAPL。交易日 2026-10-14。"
     },
     {
-      "id": "congress-2026-11-24-2026-10-14-harriet-hageman-AMD-Sell",
+      "id": "congress-2026-11-24-2026-10-14-harriet-hageman-CSCO-Sell",
       "market": "us",
       "investorId": "us_congress",
       "investorName": "Harriet Hageman",
@@ -7898,8 +7918,8 @@
       "filingDate": "2026-11-24",
       "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf",
       "security": {
-        "ticker": "AMD",
-        "name": "AMD",
+        "ticker": "CSCO",
+        "name": "CSCO",
         "cusip": "",
         "title": "Disclosed range"
       },
@@ -7914,10 +7934,10 @@
       "significanceScore": 8000.5,
       "confidence": "medium",
       "staleDisclosure": false,
-      "narrative": "Harriet Hageman 通过 US Congress PTR 减持 AMD / AMD。交易日 2026-10-14。"
+      "narrative": "Harriet Hageman 通过 US Congress PTR 减持 CSCO / CSCO。交易日 2026-10-14。"
     },
     {
-      "id": "congress-2026-11-24-2026-10-14-harriet-hageman-XOM-Sell",
+      "id": "congress-2026-11-24-2026-10-14-harriet-hageman-CRWD-Sell",
       "market": "us",
       "investorId": "us_congress",
       "investorName": "Harriet Hageman",
@@ -7931,8 +7951,8 @@
       "filingDate": "2026-11-24",
       "evidenceUrl": "https://disclosures-clerk.house.gov/public_disc/ptr-pdfs/2026/20035776.pdf",
       "security": {
-        "ticker": "XOM",
-        "name": "XOM",
+        "ticker": "CRWD",
+        "name": "CRWD",
         "cusip": "",
         "title": "Disclosed range"
       },
@@ -7947,7 +7967,7 @@
       "significanceScore": 8000.5,
       "confidence": "medium",
       "staleDisclosure": false,
-      "narrative": "Harriet Hageman 通过 US Congress PTR 减持 XOM / XOM。交易日 2026-10-14。"
+      "narrative": "Harriet Hageman 通过 US Congress PTR 减持 CRWD / CRWD。交易日 2026-10-14。"
     },
     {
       "id": "cathiesark-2026-11-24T00:00:00.000Z-ARKF-ANT-Buy-40053",
@@ -11406,7 +11426,248 @@
       "narrative": "景林资产 通过 上海景林资产管理有限公司-景林丰收3号私募基金 减持 002153 / 石基信息。报告期 2026-06-30，披露日 2026-08-26。"
     }
   ],
-  "cnMainFundInflow": [],
+  "cnMainFundInflow": [
+    {
+      "ticker": "003006",
+      "name": "百亚股份",
+      "periodLabel": "近10日",
+      "latestPrice": 18.89,
+      "pctChange": -17.83,
+      "mainNetInflow": 3242318731,
+      "mainNetInflowPct": 35.64,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    },
+    {
+      "ticker": "600519",
+      "name": "贵州茅台",
+      "periodLabel": "近10日",
+      "latestPrice": 1469,
+      "pctChange": 4.16,
+      "mainNetInflow": 2415772768,
+      "mainNetInflowPct": 3.83,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    },
+    {
+      "ticker": "688012",
+      "name": "中微公司",
+      "periodLabel": "近10日",
+      "latestPrice": 224.25,
+      "pctChange": -11.21,
+      "mainNetInflow": 1934957360,
+      "mainNetInflowPct": 3.4,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    },
+    {
+      "ticker": "688256",
+      "name": "寒武纪",
+      "periodLabel": "近10日",
+      "latestPrice": 942.85,
+      "pctChange": -3.1,
+      "mainNetInflow": 1835477808,
+      "mainNetInflowPct": 1.56,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    },
+    {
+      "ticker": "688981",
+      "name": "中芯国际",
+      "periodLabel": "近10日",
+      "latestPrice": 116.5,
+      "pctChange": 4.28,
+      "mainNetInflow": 1813188512,
+      "mainNetInflowPct": 2.47,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    },
+    {
+      "ticker": "688347",
+      "name": "华虹宏力",
+      "periodLabel": "近10日",
+      "latestPrice": 177,
+      "pctChange": 2.56,
+      "mainNetInflow": 1805083440,
+      "mainNetInflowPct": 2.8,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    },
+    {
+      "ticker": "601318",
+      "name": "中国平安",
+      "periodLabel": "近10日",
+      "latestPrice": 54.58,
+      "pctChange": 2.34,
+      "mainNetInflow": 1356874576,
+      "mainNetInflowPct": 3.58,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    },
+    {
+      "ticker": "600900",
+      "name": "长江电力",
+      "periodLabel": "近10日",
+      "latestPrice": 31.8,
+      "pctChange": 7.4,
+      "mainNetInflow": 1351127856,
+      "mainNetInflowPct": 3.54,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    },
+    {
+      "ticker": "002463",
+      "name": "沪电股份",
+      "periodLabel": "近10日",
+      "latestPrice": 81.09,
+      "pctChange": -11.21,
+      "mainNetInflow": 1263673600,
+      "mainNetInflowPct": 1.84,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    },
+    {
+      "ticker": "688820",
+      "name": "盛合晶微",
+      "periodLabel": "近10日",
+      "latestPrice": 101.1,
+      "pctChange": 13.19,
+      "mainNetInflow": 1197387275,
+      "mainNetInflowPct": 4.9,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    },
+    {
+      "ticker": "002371",
+      "name": "北方华创",
+      "periodLabel": "近10日",
+      "latestPrice": 479.44,
+      "pctChange": -14.2,
+      "mainNetInflow": 1195765152,
+      "mainNetInflowPct": 1.87,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    },
+    {
+      "ticker": "002815",
+      "name": "崇达技术",
+      "periodLabel": "近10日",
+      "latestPrice": 15.26,
+      "pctChange": -5.8,
+      "mainNetInflow": 1146887636,
+      "mainNetInflowPct": 8.05,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    },
+    {
+      "ticker": "300502",
+      "name": "新易盛",
+      "periodLabel": "近10日",
+      "latestPrice": 189.03,
+      "pctChange": -8.05,
+      "mainNetInflow": 994349856,
+      "mainNetInflowPct": 0.59,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    },
+    {
+      "ticker": "601857",
+      "name": "中国石油",
+      "periodLabel": "近10日",
+      "latestPrice": 12.76,
+      "pctChange": 6.07,
+      "mainNetInflow": 951274271,
+      "mainNetInflowPct": 4.41,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    },
+    {
+      "ticker": "601328",
+      "name": "交通银行",
+      "periodLabel": "近10日",
+      "latestPrice": 9.27,
+      "pctChange": 9.7,
+      "mainNetInflow": 930881715,
+      "mainNetInflowPct": 4.8,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    },
+    {
+      "ticker": "603228",
+      "name": "景旺电子",
+      "periodLabel": "近10日",
+      "latestPrice": 58.66,
+      "pctChange": -12.28,
+      "mainNetInflow": 872406902,
+      "mainNetInflowPct": 3.01,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    },
+    {
+      "ticker": "300604",
+      "name": "长川科技",
+      "periodLabel": "近10日",
+      "latestPrice": 167.18,
+      "pctChange": -14.43,
+      "mainNetInflow": 835548864,
+      "mainNetInflowPct": 1.77,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    },
+    {
+      "ticker": "300324",
+      "name": "旋极信息",
+      "periodLabel": "近10日",
+      "latestPrice": 5.04,
+      "pctChange": 52.73,
+      "mainNetInflow": 835160209,
+      "mainNetInflowPct": 5.92,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    },
+    {
+      "ticker": "002579",
+      "name": "中京电子",
+      "periodLabel": "近10日",
+      "latestPrice": 19.23,
+      "pctChange": 55.21,
+      "mainNetInflow": 805170114,
+      "mainNetInflowPct": 5.17,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    },
+    {
+      "ticker": "688630",
+      "name": "芯碁微装",
+      "periodLabel": "近10日",
+      "latestPrice": 209.3,
+      "pctChange": -15.35,
+      "mainNetInflow": 794941324,
+      "mainNetInflowPct": 4.31,
+      "sourceLabel": "东方财富资金流向",
+      "evidenceUrl": "https://data.eastmoney.com/zjlx/list.html?mkt=all",
+      "asOf": "2026-11-26"
+    }
+  ],
   "arkHoldings": [
     {
       "investorId": "cathie_wood",
@@ -14710,11 +14971,6 @@
     }
   ],
   "sourceErrors": [
-    {
-      "id": "cn_main_fund_flow",
-      "displayName": "A股主力资金净流入",
-      "error": "Failed to fetch https://push2.eastmoney.com/api/qt/clist/get?fid=f174&po=1&pz=50&pn=1&np=1&fltt=2&invt=2&ut=b2884a393a59ad64002292a3e90d46a5&fs=m%3A0%2Bt%3A6%2Bf%3A%212%2Cm%3A0%2Bt%3A13%2Bf%3A%212%2Cm%3A0%2Bt%3A80%2Bf%3A%212%2Cm%3A1%2Bt%3A2%2Bf%3A%212%2Cm%3A1%2Bt%3A23%2Bf%3A%212%2Cm%3A0%2Bt%3A7%2Bf%3A%212%2Cm%3A1%2Bt%3A3%2Bf%3A%212&fields=f12%2Cf14%2Cf2%2Cf160%2Cf174%2Cf175%2Cf176%2Cf177%2Cf178%2Cf179%2Cf180%2Cf181%2Cf182%2Cf183%2Cf260%2Cf261%2Cf124: 502 Bad Gateway"
-    },
     {
       "id": "berkshire_hathaway",
       "displayName": "Warren Buffett",
